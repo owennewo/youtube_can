@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "can_esp32"
+		},
+		{
+			"path": "canfd_stm32"
+		}
+	],
+	"settings": {}
+}
