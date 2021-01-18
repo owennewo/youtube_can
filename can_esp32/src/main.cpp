@@ -50,4 +50,15 @@ void setup() {
 
 void loop() {
 
+  // static byte counter = 0;
+  // static int identifier = 0x12;
+
+  // delay(1000);
+  // CAN.beginPacket(identifier);
+  // CAN.write(counter);
+  // CAN.write(255); // up to 8 bytes
+  // CAN.endPacket();
+
+  // Serial.println("sent");
+
 }

@@ -1,6 +1,4 @@
 #include <Arduino.h>
-#include <SimpleFOC.h>
-#include <math.h>
 #include <SimpleCan.h>
 
 static void handleCanMessage(FDCAN_RxHeaderTypeDef rxHeader, uint8_t *rxData);

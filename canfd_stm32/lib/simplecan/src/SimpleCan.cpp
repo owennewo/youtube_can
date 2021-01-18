@@ -21,7 +21,7 @@ SimpleCan::SimpleCan(int _shutdown_pin, int _terminate_transceiver_pin)
 
 	if (_shutdown_pin > 0) {
 		pinMode(_shutdown_pin, OUTPUT);
-		digitalWrite(_shutdown_pin, HIGH);
+		// digitalWrite(_shutdown_pin, HIGH);
 	}
 	if (_terminate_transceiver_pin > 0) {
 		pinMode(_terminate_transceiver_pin, OUTPUT);
